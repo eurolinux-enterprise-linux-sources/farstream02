@@ -4,7 +4,7 @@
 
 Name:           %{far}02
 Version:        0.2.3
-Release:        1%{?dist}
+Release:        3%{?dist}
 Summary:        Libraries for videoconferencing
 
 # Package is LGPLv2 except for a few files in /common/coverage/
@@ -101,6 +101,12 @@ find $RPM_BUILD_ROOT -name '*.la' -exec rm -f {} ';'
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.2.3-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.2.3-2
+- Mass rebuild 2013-12-27
+
 * Tue Apr 16 2013 Brian Pepple <bpepple@fedoraproject.org> - 0.2.3-1
 - Update to 0.2.3.
 - Drop leak patches. Fixed upstream.
